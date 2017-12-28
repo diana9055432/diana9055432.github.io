@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" title="Disabled for Preview-in-Browser: style.css" type="text/css" />
+<style type="text/css">
+
+/* CSS Document */
+
+#title {
+	margin-top: 0px; text-transform: uppercase; font-size: 60px; font-family: 'Open Sans Condensed', sans-serif; text-align: center;
+}
+
+a.homelink:link, a.homelink:visited, a.homelink:hover, a.homelink:active {
+	color: black; text-decoration: none;
+}
+
+#title2 {
+	margin: auto; max-width: 880px; height: 15px;  background-color: black; margin-top: -5px; padding-bottom: 10px; font-size: 16px; font-family: 'The Girl Next Door', cursive; text-align: center; color: #ffccff;
+}
+	
+
+#nav {
+	margin: auto; padding: 10px 0px; text-transform: uppercase; font-family: 'Open Sans Condensed', sans-serif; font-size: 18px;text-align: center; word-spacing: 80px; max-width: 850px;
+}
+
+a.nav:link, a.nav:visited {
+    color: black; text-decoration: none;
+}
+
+a.nav:hover, a.nav:active {
+    color: #ffb3ff; text-decoration: none;
+}
+
+#container {
+	margin: auto; background-color: black; width: 848px; height: 400px; padding: 16px;
+}
+
+.picexchange {
+	postion: relative; top: 0px; left: 0px; width: 200px; height: 278px; 
+}
+
+.pictravel {
+	position: relative; top: -278px; left: 216px; width: 200px; height: 278px;
+}
+
+.picfilm {
+	position: relative; top: -556px; left: 432px; width: 200px; height: 278px;
+}
+
+.picabout {
+	position: relative; top: -834px; left: 648px; width: 200px; height: 278px;
+}
+
+img.resize {
+  width:200px;
+  height:278px;
+}
+
+.line {
+	height: 3px; width: 800px; background-color: black; margin: auto;
+}
+
+/*OVERLAYS*/
+
+.overlay {
+	position: relative;
+	top: -278px;
+	left: 0;
+	right: 0;
+	height: 278px;
+	width: 200px;
+	opacity: 0;
+	transition: .7s ease;
+	background-color: #000000;
+}
+
+.picexchange:hover .overlay {
+  opacity: 0.6;
+}
+
+.pictravel:hover .overlay {
+  opacity: 0.6;
+}
+
+.picfilm:hover .overlay {
+  opacity: 0.6;
+}
+
+.picabout:hover .overlay {
+  opacity: 0.6;
+}
+
+.text1 {
+  color: white;
+  font-family: 'The Girl Next Door', cursive;
+  font-size: 30px;
+  position: absolute;
+  top: 115%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text2 {
+  color: white;
+  font-family: 'The Girl Next Door', cursive;
+  font-size: 16px;
+  line-height: 20px;
+  white-space: nowrap;
+  position: absolute;
+  top: 127%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#credit {
+	color: #ffccff;
+	font-family: 'The Girl Next Door', cursive;
+	position: relative;
+	top: -25px;
+  font-size: 10px;
+  text-align: center;
+  opacity: 0.5;
+}
+	
+
+</style>
+<link rel="stylesheet" title="Disabled for Preview-in-Browser: https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|The+Girl+Next+Door">
+<style type="text/css">
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(https://fonts.gstatic.com/s/opensanscondensed/v12/gk5FxslNkTTHtojXrkp-xD1GzwQ5qF9DNzkQQVRhJ4g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'The Girl Next Door';
+  font-style: normal;
+  font-weight: 400;
+  src: local('The Girl Next Door'), local('TheGirlNextDoor'), url(https://fonts.gstatic.com/s/thegirlnextdoor/v8/cWRA4JVGeEcHGcPl5hmX7hTyy6df1bVO0_GzIx7gVWg.ttf) format('truetype');
+}
+
+
+</style>
+
+</head>
+
+<body>
+	<div id="title">
+    	<a class="homelink" href="index.html"> gemini ascending </a></div>
+    <div id="title2">when the stars pretend to align</div>
+    </div>
+	<div id="nav">
+        <a class="nav" href="index.html"> home </a>
+        <a class="nav" href="exchange.html"> exchange </a>
+        <a class="nav" href="travel.html"> travel </a>
+        <a class="nav" href="film.html"> film </a>
+        <a class="nav" href="about.html"> about </a>
+	</div>
+    
+	<div id="container">
+ 
+    	<div class="picexchange">
+        	<img src="home pictures/exchange.jpg" alt="exchange" class="resize">   
+            <a class="picnav" href="exchange.html">
+            	<div class="overlay">        
+    				<div class="text1">exchange</div>
+                    <div class="text2">a semester at NUS </div>
+             	</div>
+             </a>   
+      </div>
+      
+        <div class="pictravel">       	
+        	<img class="resize" src="home pictures/travel.jpg" alt="travel">      
+            <a class="picnav" href="travel.html">
+            	<div class="overlay">        
+    				<div class="text1">travel</div>
+                    <div class="text2"> Asian adventures</div>
+        		</div> 
+            </a>
+         </div>
+         
+        <div class="picfilm">
+        	<img class="resize" src="home pictures/film.jpg" alt="film">
+            <a class="picnav" href="film.html">
+            	<div class="overlay">
+            
+    				<div class="text1">film</div>
+                    <div class="text2">BS***</div>
+        		</div> 
+            </a>
+        </div> 
+        
+        <div class="picabout">
+        	<img class="resize" src="home pictures/about.jpg" alt="about">
+            <a class="picnav" href="about.html">
+            	<div class="overlay">
+    				<div class="text1">about</div>
+                    <div class="text2"> meeeeee </div>
+        		</div>  
+           </a>
+         </div>
+     
+       </div>    
+       
+      <div id="credit">D.Tran 2017</div>    
+
+</body>
+</html>
