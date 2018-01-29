@@ -1,0 +1,322 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Week 1</title>
+
+<link rel="stylesheet" title="Disabled for Preview-in-Browser: ../style.css" type="text/css"/>
+<style type="text/css">
+
+/* CSS Document */
+
+#title {
+	text-transform: uppercase; font-size: 60px; font-family: 'Open Sans Condensed', sans-serif; text-align: center;
+}
+
+a.homelink:link, a.homelink:visited, a.homelink:hover, a.homelink:active {
+	color: black; text-decoration: none;
+}
+
+#title2 {
+	margin: auto; max-width: 880px; height: 16px;  background-color: black; margin-top: -5px; padding-bottom: 10px; font-size: 16px; font-family: 'The Girl Next Door', cursive; text-align: center; color: #ffccff;
+}
+	
+
+#nav {
+	margin: auto; padding: 10px 0px; text-transform: uppercase; font-family: 'Open Sans Condensed', sans-serif; font-size: 18px;text-align: center; word-spacing: 80px; max-width: 850px;
+}
+
+a.nav:link, a.nav:visited {
+    color: black; text-decoration: none;
+}
+
+a.nav:hover, a.nav:active {
+    color: #ffb3ff; text-decoration: none;
+}
+
+/*CONTENT STUFF*/
+
+/*heading*/
+h1 {
+	font-family: 'The Girl Next Door', cursive; font-size: 40px; color: #ffccff; text-align: center; line-height: 20px;
+}
+
+/*date*/
+h2 {
+	font-family: 'Open Sans Condensed', sans serif;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+}
+
+/*subtitle*/
+h3 {font-family: 'Open Sans Condensed', sans serif;
+	font-size: 16px;
+	color: #ffccff;
+	text-align: center;
+	line-height: 25px;
+	font-style: italic;
+}
+	
+
+p {
+	font-family: 'Open Sans Condensed', sans serif;
+	font-size: 16px;
+	color: white;
+	text-align: left;
+	line-height: 25px;
+	text-indent: 60px
+}
+
+.landpic {
+	width: 650px;
+	height: auto;
+}
+
+.portpic {
+	width: 500px;
+	height: auto;
+}
+
+/*homecontainer*/
+#container {
+	margin: auto; background-color: black; width: 848px; height: 400px; padding: 16px;
+}
+
+.bg {
+	margin: auto; width: 848px; padding: 16px; background-color: black; text-align: center;
+}
+
+.containergallery {
+	max-width: 650px; height: 370px; margin: auto; background-color: black; text-align: center;
+}
+
+.containercontent {
+	max-width: 650px; height: auto; margin: auto; background-color: black; text-align: center;
+}
+
+/*HOMEPAGE*/
+.picexchange {
+	postion: relative; top: 0px; left: 0px; width: 200px; height: 278px; 
+}
+
+.pictravel {
+	position: relative; top: -278px; left: 216px; width: 200px; height: 278px;
+}
+
+.picfilm {
+	position: relative; top: -556px; left: 432px; width: 200px; height: 278px;
+}
+
+.picabout {
+	position: relative; top: -834px; left: 648px; width: 200px; height: 278px;
+}
+
+img.resize {
+  width:200px;
+  height:278px;
+}
+
+.line {
+	height: 3px; width: 800px; background-color: black; margin: auto;
+}
+
+/*OVERLAYSS*/
+
+.overlayhome {
+	position: relative;
+	top: -278px;
+	left: 0;
+	right: 0;
+	height: 278px;
+	width: 201px;
+	opacity: 0;
+	transition: .7s ease;
+	background-color: #000000;
+}
+
+.picexchange:hover .overlayhome, .pictravel:hover .overlayhome, .picfilm:hover .overlayhome, .picabout:hover .overlayhome {
+  opacity: 0.6;
+}
+
+.overlay {
+	position: relative;
+	top: -216px;
+	left: 0;
+	right: 0;
+	height: 216px;
+	width: 216px;
+	opacity: 0;
+	transition: .7s ease;
+	background-color: #000000;
+}	
+
+.tile {
+	width: 216px; height: 216px; position: relative; float: left;
+}
+
+.tile:hover .overlay {
+	opacity: 0.6;
+}
+
+.text1 {
+  color: white;
+  font-family: 'The Girl Next Door', cursive;
+  font-size: 30px;
+  position: absolute;
+  top: 115%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text2 {
+  color: white;
+  font-family: 'The Girl Next Door', cursive;
+  font-size: 16px;
+  line-height: 20px;
+  white-space: nowrap;
+  position: absolute;
+  top: 127%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.textile {
+  color: white;
+  font-family: 'Open Sans Condensed', sans serif;
+  font-size: 16px;
+  line-height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#credit {
+	color: #ffccff;
+	font-family: 'The Girl Next Door', cursive;
+	position: relative;
+	top: -25px;
+  font-size: 10px;
+  text-align: center;
+  opacity: 0.5;
+}
+	
+
+</style>
+<link rel="stylesheet" title="Disabled for Preview-in-Browser: https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|The+Girl+Next+Door">
+<style type="text/css">
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(https://fonts.gstatic.com/s/opensanscondensed/v12/gk5FxslNkTTHtojXrkp-xD1GzwQ5qF9DNzkQQVRhJ4g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'The Girl Next Door';
+  font-style: normal;
+  font-weight: 400;
+  src: local('The Girl Next Door'), local('TheGirlNextDoor'), url(https://fonts.gstatic.com/s/thegirlnextdoor/v8/cWRA4JVGeEcHGcPl5hmX7hTyy6df1bVO0_GzIx7gVWg.ttf) format('truetype');
+}
+
+
+</style>
+
+</head>
+
+<body>
+<a name="top"></a>
+<div id="title">
+    	<a class="homelink" href="../index.html"> gemini ascending </a></div>
+    <div id="title2">when the stars pretend to align</div>
+    </div>
+	<div id="nav">
+        <a class="nav" href="../index.html"> home </a>
+        <a class="nav" href="../exchange.html"> exchange </a>
+        <a class="nav" href="../travel.html"> travel </a>
+        <a class="nav" href="../film.html"> film </a>
+        <a class="nav" href="../about.html"> about </a>
+	</div>
+    <div class="bg">
+    	<div class="containercontent">
+        	<h1 style="line-height: 40px;">Haw Par Villa, Peranakan House, Haji Lane</h1>
+            <h2>Jan 13th</h2>
+        <h3> new friends and new sights after one week </h3>
+         <img class="landpic" src="hawpar/00000166edit.JPG" />
+         <h3> Ashleigh and I trying to look alive at 6am when we arrived at Changi Airport on the 6th. </h3>
+         
+         
+         <p> In the week before school started, there was plenty of events run by groups at NUS to familiarise international students with the campus and city. Overwhelmed by all the things going on and by how UTown has everything except for Wifi in bedrooms, I realise I have no photos of campus for an "a day in my new exciting exchange life" blog. So there is a lack of proper introduction, <strike> but as all my friends know, I have trouble sticking to timelines</strike> but maybe there needs to be none. 
+ </p>
+ 
+ 	<img class="landpic" src="hawpar/00000133edit.JPG" />
+    <h3> kaki sqwad </h3>
+ 
+<p>On one of the "kaki" buddy adventure days, where local students take a bunch of exchange students around, we went to Haw Par Villa and the Peranakan Museum, and ate a bunch of good food throughout the day. It was fun getting to know other exchangers and a special apology is owed to our local buddies, Wen Qi and Alex, whom Jenn and I tortured with taking photos and carrying our bags. I'm sorry for abusing your kindness. 
+</p>
+
+<h1>Haw Par Villa </h1>
+<h2>Chinese mythology, folklore theme park </h2>
+<img class="landpic" src="hawpar/00000134edit.JPG" />
+<h3> Sine, Jenn, Cindy and I having no idea what the story behind us is.</h3>
+<img style="margin-bottom: 30px;" class="landpic" src="hawpar/00000136edit.JPG" />
+<img class="landpic" src="hawpar/00000135edit.JPG" />
+<h3> Wen Qi and Alex </h3>
+
+<h2> 10 Courts of Hell </h2>
+<p> Upon dying, you will judged for the conduct of your past life in the first court of hell. If your bad deeds outweight the good, you will be sent to further courts of hell to be punished. Parents take their young children to see, in order to inspire virtue in them:</p>
+<img style="margin-bottom: 30px;" class="landpic" src="hawpar/00000123edit.JPG" />
+<img style="margin-bottom: 30px;" class="landpic" src="hawpar/00000124edit.JPG" />
+<img style="margin-bottom: 30px;" class="landpic" src="hawpar/00000125edit.JPG" />
+<img class="portpic" src="hawpar/00000126edit.JPG" />
+<p> Do not worry, there is still justice in hell, and once you serve your time, you can drink tea to forget this lifetime and reincarnate. Outside, we keep taking silly photos everywhere while we are still young, touristy, and (partially) free from judgement:</p>
+
+<img class="landpic" src="hawpar/00000129edit.JPG" />
+<h3> Haw Par Villa is also known as Tiger Balm Gardens. Tiger Balm originated from Singapore!</h3>
+<img style="margin-bottom: 30px;" class="portpic" src="hawpar/00000139edit.JPG" />
+<img class="portpic" src="hawpar/00000132edit.JPG" />
+
+
+<h1> Peranakan Museum </h1>
+<h2> Typical home of the Peranakan Chinese ie descedants of Chinese immigrants who came to the Malay archipelago between the 15th and 17th century. They were the early Chinese population of the region, and have mostly assimilated back into mainstream Chinese culture. </h2>
+<img style="margin-bottom: 30px;" class="landpic" src="hawpar/00000141edit.JPG" />
+<img style="margin-bottom: 30px;" class="portpic" src="hawpar/00000142edit.JPG" />
+<img style="margin-bottom: 30px;" class="portpic" src="hawpar/00000143edit.JPG" />
+<img style="margin-bottom: 30px;" class="landpic" src="hawpar/00000144edit.JPG" />
+<img style="margin-bottom: 30px;" class="landpic" src="hawpar/00000145edit.JPG" />
+<img style="margin-bottom: 30px;" class="landpic" src="hawpar/00000146edit.JPG" />
+<img class="portpic" src="hawpar/00000147edit.JPG" />
+
+<h1>Haji Lane</h1>
+<h2>After saying goodbye to our kaki group, some of us headed over to Haji Lane, pretty much for taking wannabe hipster photos. The lane has western food and bars, and trendy Korean styled boutiques. Decorated facades and a slight drizzle before dark make for cool walk in between the busy Bugis streets.</h2>
+<img style="margin-bottom: 30px;" class="landpic" src="hawpar/00000148edit.JPG" />
+<img class="portpic" src="hawpar/00000149edit.JPG" />
+<h3> Cindy with her amazing assymetrical Dutch umbrella. </h3>
+<img style="margin-bottom: 30px;" class="landpic" src="hawpar/00000150edit.JPG" />
+<img style="margin-bottom: 30px;" class="portpic" src="hawpar/00000151edit.JPG" />
+<img style="margin-bottom: 30px;" class="landpic" src="hawpar/00000152edit.JPG" />
+<img style="margin-bottom: 30px;" class="portpic" src="hawpar/00000154edit.JPG" />
+<img style="margin-bottom: 30px;" class="landpic" src="hawpar/00000155edit.JPG" />
+<img class="landpic" src="hawpar/00000156edit.JPG" />
+
+
+
+/*footer*/
+        <a style="text-decoration: none;" href="#top"><h2>↑<br />Back to top</h2></a>
+          <br />
+    </div>
+    <div id="credit">D.Tran 2017</div>  
+
+</body>
+</html>
