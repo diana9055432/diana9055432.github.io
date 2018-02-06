@@ -341,7 +341,7 @@ img.resize {
 	
 	.picabout {
 		margin: 10px 0px 10px 0px;
-		background-image:url(home%20pictures/about_mobile.jpg);
+		background-image:url("home pictures/about_mobile.jpg");
 		width: auto; 
 		height: 100px;
 		top: 0px;
