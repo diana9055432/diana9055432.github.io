@@ -2,23 +2,44 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
+<script src="javascript.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|The+Girl+Next+Door" rel="stylesheet">
 
 </head>
 
 <body>
-	<div id="title">
-    	<a class="homelink" href="index.html"> gemini ascending </a></div>
+	<div id="header">
+    	<div id="title">
+    		<a class="homelink" href="index.html"> gemini ascending </a>
+       	</div>
+        
+	</div>
+   
     <div id="title2">when the stars pretend to align</div>
-    </div>
+   
+   <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><menu></menu><menu></menu><menu></menu></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="exchange.html">Exchange</a>
+    <a href="travel.html">Travel</a>
+    <a href="film.html">Film</a>
+    <a href="about.html">About</a>
+  </div>
+  
+</div>
+   
 	<div id="nav">
-        <a class="nav" href="index.html"> home </a>
-        <a class="nav" href="exchange.html"> exchange </a>
+   
+		<a class="nav" href="index.html"> home </a>
+       	<a class="nav" href="exchange.html"> exchange </a>
         <a class="nav" href="travel.html"> travel </a>
         <a class="nav" href="film.html"> film </a>
         <a class="nav" href="about.html"> about </a>
+   
 	</div>
     
 	<div id="container">
@@ -30,7 +51,7 @@
     				<div class="text1">exchange</div>
                     <div class="text2">a semester at NUS </div>
              	</div>
-             </a>   
+             </a> 
       </div>
       
         <div class="pictravel">       	
@@ -66,7 +87,14 @@
      
        </div>    
        
-      <div id="credit">D.Tran 2017</div>    
+      <div id="credit">D.Tran 2017</div> 
+      
+      <div id="mobile-text">
+      <a class="mob" href="exchange.html"> exchange </a>
+      <a class="mob" href="travel.html"> travel </a>
+      <a class="mob" href="film.html"> film </a>
+      <a class="mob" href="about.html"> about </a>
+      </div>
 
 </body>
 </html>

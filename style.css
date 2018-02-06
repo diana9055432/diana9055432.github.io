@@ -5,6 +5,7 @@
 	text-transform: uppercase; font-size: 60px; font-family: 'Open Sans Condensed', sans-serif; text-align: center;
 }
 
+
 a.homelink:link, a.homelink:visited, a.homelink:hover, a.homelink:active {
 	color: black; text-decoration: none;
 }
@@ -25,6 +26,69 @@ a.nav:link, a.nav:visited {
 a.nav:hover, a.nav:active {
     color: #ffb3ff; text-decoration: none;
 }
+
+/*mobile menu*/
+.dropbtn {
+	display: none;
+    cursor: pointer;
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	border: none;
+	text-align: center;
+}
+
+menu {
+	width: 0px;
+    height: 5px;
+    background-color: white;
+    margin-top: 6px;
+	margin-bottom: 6px;
+	margin-left: -10px;
+	float: center;
+	position: relative;
+}
+
+.dropbtn:hover, .dropbtn:focus, .dropbtn:active {
+    outline: none;
+}
+
+.dropdown {
+	position: relative;
+    display: inline-block;
+	float: right;
+	margin-right: 23px;
+	margin-top: 3px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+	top: 42px;
+	right: -7px;
+    background-color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	
+}
+
+.dropdown-content a:hover {
+	color: white;
+	background-color: black;
+}
+
+.show {display:block;}
 
 /*CONTENT STUFF*/
 
@@ -197,4 +261,112 @@ img.resize {
   text-align: center;
   opacity: 0.5;
 }
+
+#mobile-text {
+	display: none; 
+}
+
+
+@media screen and (max-width: 900px){
+	#title {
+		position: absolute;
+		background-color: black;
+		max-width: 900px;
+		text-align: left;
+		padding-left: 20px;
+		position: inline-block;
+	}
 	
+	#title2 {
+		display: none;
+	}
+	
+	a.homelink:link, a.homelink:visited, a.homelink:hover, a.homelink:active  {
+		color: white;
+		text-decoration: none;
+		font-size: 30px;
+	}
+	
+	#menu {
+	display: inline-block;
+	}
+	
+	.nav {
+		display: none;
+	}
+	
+	#container {
+	background-color: black; 
+	width: auto; 
+	height: auto; 
+	margin-top: -20px;
+	padding-top: 35px;
+	}
+
+	.overlayhome {
+	display: none;
+	}
+	
+	.resize {
+	display: none;
+	}
+	
+	.picexchange {
+		background-image:url(home%20pictures/exchange_mob.jpg); 
+		margin: 10px 0px 10px 0px;
+		width: auto; 
+		height: 100px;
+		top: 0px;
+		left: 0px;
+		
+	}
+	
+	.pictravel {
+		margin: 10px 0px 10px 0px;
+		background-image:url(home%20pictures/travel_mob.jpg);
+		width: auto; 
+		height: 100px;
+		top: 0px;
+		left: 0px;
+	}
+	
+	.picfilm { 
+		background-image:url(home%20pictures/film_mob.jpg);
+		margin: 10px 0px 10px 0px;
+		width: auto; 
+		height: 100px;
+		top: 0px;
+		left: 0px;
+	}
+	
+	.picabout {
+		margin: 10px 0px 10px 0px;
+		background-image:url(home%20pictures/about_mobile.jpg);
+		width: auto; 
+		height: 100px;
+		top: 0px;
+		left: 0px;
+	}
+	
+	.dropbtn{
+		display: inline-block;
+	}
+	
+	#mobile-text {	 
+		display: inline-block;
+ 	 font-family: 'The Girl Next Door', cursive;
+  	font-size: 50px;
+	line-height: 110px;
+ 	 position: relative;
+	 text-align: center;
+ 	 top: -480px;
+	 left: 40%;
+	}
+		
+	a.mob {
+		display: block;
+		text-decoration: none;
+		color: white;
+		opacity: 0.8;
+		
+}
