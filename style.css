@@ -54,18 +54,19 @@ menu {
 }
 
 .dropdown {
+	display: none;
 	position: relative;
     display: inline-block;
 	float: right;
 	margin-right: 23px;
-	margin-top: 3px;
+	margin-top: 5px;
 }
 
 .dropdown-content {
     display: none;
-    position: absolute;
-	top: 42px;
-	right: -7px;
+    position: fixed;
+	top: 46px;
+	right: 24px;
     background-color: white;
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
@@ -268,13 +269,22 @@ img.resize {
 
 
 @media screen and (max-width: 900px){
+	
 	#title {
-		position: absolute;
+		position: fixed;
 		background-color: black;
-		max-width: 900px;
+		left: 0px;
+		top: 0px;
+		right: 0px;
+		height: 40px;
 		text-align: left;
+		font-size: 30px;
 		padding-left: 20px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		overflow: hidden;
 		position: inline-block;
+		z-index: 1;
 	}
 	
 	#title2 {
@@ -284,7 +294,6 @@ img.resize {
 	a.homelink:link, a.homelink:visited, a.homelink:hover, a.homelink:active  {
 		color: white;
 		text-decoration: none;
-		font-size: 30px;
 	}
 	
 	#menu {
@@ -299,8 +308,12 @@ img.resize {
 	background-color: black; 
 	width: auto; 
 	height: auto; 
-	margin-top: -20px;
-	padding-top: 35px;
+	margin: 0px;
+	padding-top: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 16px;
+	bottom: 0px;
 	}
 
 	.overlayhome {
@@ -341,7 +354,7 @@ img.resize {
 	
 	.picabout {
 		margin: 10px 0px 10px 0px;
-		background-image:url(home%20pictures/about_mobile.jpg);
+		background-image:url("home pictures/about_mobile.jpg");
 		width: auto; 
 		height: 100px;
 		top: 0px;
@@ -350,6 +363,10 @@ img.resize {
 	
 	.dropbtn{
 		display: inline-block;
+		position: fixed;
+		top: 2px;
+		right: 31px;
+		z-index: 1;
 	}
 	
 	#mobile-text {	 
@@ -368,5 +385,6 @@ img.resize {
 		text-decoration: none;
 		color: white;
 		opacity: 0.8;
+		
 		
 }
