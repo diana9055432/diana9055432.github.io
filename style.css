@@ -67,12 +67,13 @@ menu {
     position: fixed;
 	top: 46px;
 	right: 16px;
+	left: 16px;
     background-color: white;
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 30px;
-    min-width: 200px;
+    width: auto;
     z-index: 1;
 }
 
@@ -366,9 +367,8 @@ a.mob {
 		color: white;
 		opacity: 0.8;
 		 position: relative;
-		 text-align: right;
-		 top: 45%;
-		 right: 5%;
+		 text-align: center;
+		 top: 20%;
 		 font-family: 'Open Sans Condensed', sans-serif;
   		font-size: 50px;
 	}
@@ -380,9 +380,8 @@ a.mob {
 		color: black;
 		opacity: 0.8;
 		 position: relative;
-		 text-align: right;
-		 top: 45%;
-		 right: 5%;
+		 text-align: center;
+		 top: 20%;
 		 font-family: 'Open Sans Condensed', sans-serif;
   		font-size: 50px;
 	}
