@@ -183,11 +183,11 @@ img.resize {
 
 .overlayhome {
 	position: relative;
-	top: -278px;
-	left: 0;
+	top: -280px;
+	left: -1px;
 	right: 0;
-	height: 278px;
-	width: 201px;
+	height: 280px;
+	width: 202px;
 	opacity: 0;
 	transition: .7s ease;
 	background-color: #000000;
@@ -263,7 +263,7 @@ img.resize {
   opacity: 0.5;
 }
 
-#mobile-text {
+a.mob {
 	display: none; 
 }
 
@@ -314,8 +314,8 @@ img.resize {
 	top: 0px;
 	left: 0px;
 	right: 0px;
+	bottom: 0px;
 	padding-top: 36px;
-	overflow: visible;
 	}
 
 	.overlayhome {
@@ -326,28 +326,28 @@ img.resize {
 	display: none;
 	}
 	
+	.picexchange, .pictravel, .picfilm, .picabout {
+		width: auto; left: 16px; right: 16px; height: 21.75%; position: absolute;
+	}
+	
 	.picexchange {
 		background-image:url(home%20pictures/exchange_mob.jpg); 
+		top: 5%;
 	}
-	.picexchange, .pictravel, .picfilm, .picabout {
-		margin: 10px 0px 10px 0px;
-		width: auto;
-		height: 100px;
-		top: 0px;
-		left: 0px;
-		
-	}
+	
 	
 	.pictravel {
 		background-image:url(home%20pictures/travel_mob.jpg);
+		top: 28.75%;
 	}
 	
 	.picfilm { 
 		background-image:url(home%20pictures/film_mob.jpg);
+		top: 52.5%;
 	}
 	
 	.picabout {
-		background-image:url(home%20pictures/about_mobile.jpg);
+		background-image:url(home%20pictures/about_mobile.jpg); top: 76.25%;
 	}
 	
 	.dropbtn{
@@ -357,27 +357,22 @@ img.resize {
 		right: 23px;
 		z-index: 1;
 	}
-	
-	#mobile-text {	 
-	display: inline-block;
- 	 font-family: 'The Girl Next Door', cursive;
-  	font-size: 50px;
-	line-height: 110px;
- 	 position: relative;
-	 text-align: center;
- 	 top: 0px;
-	 left: 40%;
-	}
+
 		
 	a.mob {
 		display: block;
 		text-decoration: none;
 		color: white;
 		opacity: 0.8;
+		 position: relative;
+		 text-align: center;
+		 top: 20%;
+		 font-family: 'The Girl Next Door', cursive;
+  		font-size: 50px;
 	}
 
+
 	#credit {
-	position: relative; 
-	top: 455px;
+	display: hidden;
 	}
 }
