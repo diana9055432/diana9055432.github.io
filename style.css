@@ -327,27 +327,27 @@ a.mob {
 	}
 	
 	.picexchange, .pictravel, .picfilm, .picabout {
-		width: auto; left: 16px; right: 16px; height: 21.75%; position: absolute;
+		width: auto; left: 16px; right: 16px; height: 21.25%; position: absolute;
 	}
 	
 	.picexchange {
 		background-image:url(home%20pictures/exchange_mob.jpg); 
-		top: 5%;
+		top: 7%;
 	}
 	
 	
 	.pictravel {
 		background-image:url(home%20pictures/travel_mob.jpg);
-		top: 28.75%;
+		top: 30.25%;
 	}
 	
 	.picfilm { 
 		background-image:url(home%20pictures/film_mob.jpg);
-		top: 52.5%;
+		top: 53.5%;
 	}
 	
 	.picabout {
-		background-image:url(home%20pictures/about_mobile.jpg); top: 76.25%;
+		background-image:url(home%20pictures/about_mobile.jpg); top: 77%;
 	}
 	
 	.dropbtn{
@@ -362,17 +362,32 @@ a.mob {
 	a.mob {
 		display: block;
 		text-decoration: none;
+		text-transform: uppercase;
 		color: white;
 		opacity: 0.8;
 		 position: relative;
-		 text-align: center;
-		 top: 20%;
-		 font-family: 'The Girl Next Door', cursive;
+		 text-align: right;
+		 top: 45%;
+		 right: 5%;
+		 font-family: 'Open Sans Condensed', sans-serif;
   		font-size: 50px;
 	}
 
+	a.mobblack {
+		display: block;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: black;
+		opacity: 0.8;
+		 position: relative;
+		 text-align: right;
+		 top: 45%;
+		 right: 5%;
+		 font-family: 'Open Sans Condensed', sans-serif;
+  		font-size: 50px;
+	}
 
 	#credit {
-	display: hidden;
+	font-family: 'Open Sans Condensed', sans-serif; 
 	}
 }
