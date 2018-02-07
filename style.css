@@ -315,7 +315,7 @@ img.resize {
 	left: 0px;
 	right: 0px;
 	padding-top: 36px;
-	bottom: 0px;
+	overflow: visible;
 	}
 
 	.overlayhome {
@@ -359,13 +359,13 @@ img.resize {
 	}
 	
 	#mobile-text {	 
-		display: inline-block;
+	display: inline-block;
  	 font-family: 'The Girl Next Door', cursive;
   	font-size: 50px;
 	line-height: 110px;
  	 position: relative;
 	 text-align: center;
- 	 top: -480px;
+ 	 top: 0px;
 	 left: 40%;
 	}
 		
@@ -376,4 +376,8 @@ img.resize {
 		opacity: 0.8;
 	}
 
+	#credit {
+	position: relative; 
+	top: 455px;
+	}
 }
