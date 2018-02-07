@@ -276,6 +276,7 @@ img.resize {
 		left: 0px;
 		top: 0px;
 		right: 0px;
+		width: auto;
 		height: 40px;
 		text-align: left;
 		font-size: 30px;
