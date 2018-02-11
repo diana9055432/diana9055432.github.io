@@ -65,7 +65,7 @@ menu {
 .dropdown-content {
     display: none;
     position: fixed;
-	top: 46px;
+	top: 41px;
 	right: 16px;
 	left: 16px;
     background-color: white;
@@ -74,6 +74,9 @@ menu {
 	text-align: center;
 	font-size: 30px;
     width: auto;
+	border-style: solid;
+	border-width: thick;
+	border-color: black;
     z-index: 1;
 }
 
@@ -208,7 +211,7 @@ img.resize {
 	left: 0;
 	right: 0;
 	height: 216px;
-	width: 216px;
+	width: 218px;
 	opacity: 0;
 	transition: .7s ease;
 	background-color: #000000;
@@ -401,9 +404,11 @@ a.mob, a.mobblack {
 		display: inline-block;
 		position: fixed;
 		top: 2px;
-		right: 23px;
+		right: 28px;
 		z-index: 1;
 	}
+	
+
 
 /*TITLE PAGES*/
 	
@@ -411,29 +416,32 @@ a.mob, a.mobblack {
 	background-color: #ffccff; 
 	width: auto;
 	height: auto; 
-	margin: 0px;
+	margin: auto;
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
-	padding-top: 36px;
+	padding-top: 50px;
 	}
 	
-	.containergallery {
+	.containergallery, .containercontent {
 	position: absolute; 
 	width: auto; 
 	height: auto;
 	margin-left: auto; 
 	margin-right: auto; 
-	bottom: 16px;
-	top: 60px;  
+	top: 63px;  
 	left: 16px;
 	right: 16px; 
+	bottom: 16px;
 	background-color: white; 
-	padding: 20px; 
+	padding-bottom: 20px;
+	padding-top: 10px; 
+	padding-left: 20px;
+	padding-right: 20px;
 	text-align: justify;
-	overflow: visible;
+	overflow: scroll;
 	}
 
 	.webtile {
@@ -448,9 +456,9 @@ a.mob, a.mobblack {
 	display: block;
 	color: black;
   	font-family: 'Open Sans Condensed', sans serif;
-  	font-size: 16px;
-  	line-height: 20px;
+  	font-size: 18px;
   	position: relative;
+	text-align: center;
 	top: 230px;
 	}
 		
@@ -463,17 +471,13 @@ a.mob, a.mobblack {
 	border-radius: 30%; border-width: thick; border-color: #ffccff;
 	}
 	
-	h1 {
-  		font-size: 50px;
-		
-	}
-	
-	h2 {
-		color: black;
-	}
 	
 /*BLOG POSTS*/
+/*containercontent above*/
 
+	.landpic, .portpic {
+		width: 100%;
+	}
 
 /*CREDIT*/
 	#credit {
@@ -491,13 +495,11 @@ a.mob, a.mobblack {
 	position: relative; 
 	width: auto; 
 	height: auto; 
-	bottom: 16px;
 	top: -20px;  
 	left: 16px;
 	right: 16px; 
 	padding: 0px; 
-	float: none; 
-	margin-right: auto;
+	float: none;
 	text-align: justify;
 	}
 	
@@ -509,8 +511,22 @@ a.mob, a.mobblack {
 		border-color: #ffccff;
 	}
 	
+/*text*/	
+	h1 {
+		font-size: 50px;
+	}
+	
+	h2 {
+		color: black;
+		font-size: 18px;
+	}
+	
+	h3 {
+		color: #3CB371; font-size: 16px;
+	}
+	
 	p {
-		color: black; text-indent: 0px; 
+		color: black; text-indent: 0px; font-size: 18px;
 	}
 	
 }
