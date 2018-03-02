@@ -218,7 +218,7 @@ img.resize {
 }	
 
 .tile {
-	width: 216px; height: 216px; position: relative; float: left;
+	width: 216px; height: 216px; position: relative; float: left; margin: auto; margin-right: 20px; margin-bottom: 40px;
 }
 
 .tile:hover .overlay {
@@ -432,7 +432,7 @@ a.mob, a.mobblack {
 	margin-left: auto;
 	margin-right: auto;
 	top: 63px;
-	left: 17px;
+	left: 18px;
 	right: 16px;
 	bottom: 16px;
 	background-color: white;
