@@ -142,9 +142,18 @@ p {
 	height: auto;
 }
 
-.portpic {
+.landpicS {
+	width: 350px;
+	height: auto;
+}
+
+.portpic, {
 	width: 500px;
 	height: auto;
+}
+
+.portpicS {
+	width: 50%;
 }
 
 .portpic2 {
@@ -168,11 +177,11 @@ span {
 }
 
 .bg {
-	margin: auto; width: 848px; padding: 16px; background-color: black; text-align: center;
+	margin: auto; width: 848px; min-height: 400px; padding: 16px; background-color: black; text-align: center; overflow: scroll;
 }
 
 .containergallery {
-	max-width: 708px; height: 373px; margin: auto; background-color: black; text-align: center; margin-left: 80px;
+	max-width: 708px; max-height: 373px; margin: auto; background-color: black; text-align: center; margin-left: 80px; 
 }
 
 .containercontent {
@@ -446,7 +455,7 @@ a.mob, a.mobblack {
 	.containergallery, .containercontent {
 	position: absolute;
 	width: auto;
-	height: auto;
+	max-height: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	top: 65px;
@@ -493,9 +502,10 @@ a.mob, a.mobblack {
 /*BLOG POSTS*/
 /*containercontent above*/
 
-	.landpic, .portpic, .portpic2 {
-		width: 100%; border: none; margin-bottom: 4px;
+	.landpic, .landpicS, .portpic, .portpicS, .portpic2 {
+		width: 100%; border: none; margin-bottom: 4px; 
 	}
+	
 
 /*CREDIT*/
 	
