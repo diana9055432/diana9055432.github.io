@@ -2,7 +2,7 @@
 /* CSS Document */
 
 #title {
-	text-transform: uppercase; font-size: 60px; font-family: 'Open Sans Condensed', sans-serif; text-align: center;
+	font-size: 60px; font-family: 'Playfair Display', serif; text-align: center;
 }
 
 
@@ -11,24 +11,32 @@ a.homelink:link, a.homelink:visited, a.homelink:hover, a.homelink:active {
 }
 
 a.text:link, a.text:visited, a.text:hover, a.text:active {
-	color: #9CF; text-decoration: none;
+	color: #4040bf; text-decoration: none;
 }
 
 #title2 {
-	margin: auto; max-width: 880px; height: 16px;  background-color: black; margin-top: -5px; padding-bottom: 10px; font-size: 16px; font-family: 'The Girl Next Door', cursive; text-align: center; color: #ffccff;
+	margin: auto; max-width: 880px; height: 16px;  background-color: white; margin-top: -5px; padding-bottom: 10px; font-size: 18px; font-family: 'The Girl Next Door', cursive; text-align: center; color: #9999ff;
 }
 	
 
 #nav {
-	margin: auto; padding: 10px 0px; text-transform: uppercase; font-family: 'Open Sans Condensed', sans-serif; font-size: 18px;text-align: center; word-spacing: 80px; max-width: 850px;
+	margin: auto; padding: 10px 0px; font-family: 'Abel', serif; font-size: 20px;text-align: center; word-spacing:0px; max-width: 850px;
+}
+
+a.nav {
+	 margin: 0px 50px 0px 50px;
+	 padding: 0px 1px 0px 3px;
+  color: black;
+  text-decoration: none;
 }
 
 a.nav:link, a.nav:visited {
-    color: black; text-decoration: none;
+    color: black; 
 }
 
 a.nav:hover, a.nav:active {
-    color: #ffb3ff; text-decoration: none;
+     background-color: #ffff00; text-transform: bold; 
+	 color:#669999;
 }
 
 /*mobile menu*/
@@ -103,38 +111,51 @@ menu {
 
 /*heading*/
 h1 {
-	font-family: 'The Girl Next Door', cursive; font-size: 40px; color: #ffccff; text-align: center; line-height: 40px;
+	font-family: 'The Girl Next Door', cursive; font-size: 30px; color: #4040bf; text-align: center; line-height: 25px; text-transform: none;
 }
 
 /*date*/
 h2 {
-	font-family: 'Open Sans Condensed', sans serif;
-	font-size: 16px;
-	color: white;
+	font-family: 'Abel', serif;
+	font-size: 17px;
+	color: black;
 	text-align: center;
 	line-height: 20px;
 }
 
 /*subtitle*/
-h3 {font-family: 'Open Sans Condensed', sans serif;
-	font-size: 14px;
-	color: #ffccff;
+h3 {font-family: 'Abel', serif;
+	font-size: 16px;
+	color: 	#6c6c93;
 	text-align: center;
-	line-height: 25px;
-	font-style: italic;
-}
+	line-height: 20px;
+	margin-left: 60px;
+	margin-right: 60px;
+
 	
-b {
-	color: #ffccff;
+}
+h4 {font-family: 'Abel', serif;
+	font-size: 16px;
+	color: 	#6c6c93;
+	text-align: left;
+	line-height: 20px;
+	margin-left: 60px;
+	margin-right: 60px;
+
+	
 }
 
+
+
 p {
-	font-family: 'Open Sans Condensed', sans serif;
-	font-size: 16px;
-	color: white;
+	font-family: 'Abel', serif;
+	font-size: 18px;
+	color: black;
 	text-align: left;
 	line-height: 25px;
-	text-indent: 60px
+	line-height: 30px;
+	text-align: justify;
+
 }
 
 .tilename {
@@ -142,7 +163,7 @@ p {
 }
 
 .landpic {
-	width: 650px;
+	width: 700px;
 	height: auto;
 }
 
@@ -158,6 +179,10 @@ p {
 
 .portpicS {
 	width: 50%;
+}
+
+.portpicH {
+	width: 49%;
 }
 
 .portpic2 {
@@ -177,19 +202,25 @@ span {
 
 /*homecontainer*/
 #container {
-	margin: auto; background-color: black; width: 848px; height: 400px; padding: 16px;
+	margin: auto; background-image: linear-gradient(#e6e2e9,white); width: 848px; height: 400px; padding: 16px;
 }
 
 .bg {
-	margin: auto; width: 848px; min-height: 400px; padding: 16px; background-color: black; text-align: center; overflow: scroll;
+	margin: auto; width: 848px; min-height: 400px; padding: 16px; background-image: linear-gradient(#e6e2e9,white); text-align: center; overflow: scroll;
 }
 
+.bgcontent {
+	margin: auto; width: 848px; min-height: 400px; padding: 16px; text-align: center; overflow: scroll; background-image: linear-gradient(#e6e2e9,white);
+}
+
+
+
 .containergallery {
-	max-width: 708px; max-height: 373px; margin: auto; background-color: black; text-align: center; margin-left: 80px; 
+	max-width: 708px; max-height: 400px; margin-top:-37px; padding-top: 25px; text-align: center; margin-left: 80px; 
 }
 
 .containercontent {
-	max-width: 650px; height: auto; margin: auto; background-color: black; text-align: center;
+	max-width: 700px; height: auto; margin: auto; padding: 20px; margin-top:-20px;background-color: white; text-align: center;
 }
 
 /*HOMEPAGE*/
@@ -222,14 +253,14 @@ img.resize {
 
 .overlayhome {
 	position: relative;
-	top: -280px;
-	left: -1px;
+	top: -278px;
+	left: 0spx;
 	right: 0;
-	height: 280px;
-	width: 202px;
+	height: 278px;
+	width: 200px;
 	opacity: 0;
 	transition: .7s ease;
-	background-color: #000000;
+	background-color: #e6e2e9;
 }
 
 .picexchange:hover .overlayhome, .pictravel:hover .overlayhome, .picfilm:hover .overlayhome, .picabout:hover .overlayhome {
@@ -242,10 +273,10 @@ img.resize {
 	left: 0;
 	right: 0;
 	height: 216px;
-	width: 218px;
+	width: 216px;
 	opacity: 0;
 	transition: .7s ease;
-	background-color: #000000;
+	background-color: #e6e2e9;
 }	
 
 .tile {
@@ -253,11 +284,11 @@ img.resize {
 }
 
 .tile:hover .overlay {
-	opacity: 0.6;
+	opacity: 0.7;
 }
 
 .text1 {
-  color: white;
+  color: black;
   font-family: 'The Girl Next Door', cursive;
   font-size: 30px;
   position: absolute;
@@ -268,7 +299,7 @@ img.resize {
 }
 
 .text2 {
-  color: white;
+  color: black;
   font-family: 'The Girl Next Door', cursive;
   font-size: 16px;
   line-height: 20px;
@@ -281,9 +312,9 @@ img.resize {
 }
 
 .textile {
-  color: white;
-  font-family: 'Open Sans Condensed', sans serif;
-  font-size: 16px;
+  color: black;
+  font-family: 'Abel', serif;
+  font-size: 17px;
   line-height: 20px;
   position: absolute;
   top: 50%;
@@ -297,13 +328,12 @@ img.resize {
 }
 
 #credit {
-	color: #ffccff;
-	font-family: 'The Girl Next Door', cursive;
+	color: #4040bf;
+	font-family: 'Abel', serif;
 	position: relative;
 	top: -25px;
-  font-size: 10px;
+  font-size: 14px;
   text-align: center;
-  opacity: 0.5;
 }
 
 #aboutme {
@@ -350,9 +380,10 @@ a.mob, a.mobblack {
 	}
 	
 	a.text:link, a.text:visited, a.text:hover, a.text:active {
-		color: #9CF;
+		color: #4040bf;
 		text-decoration: none;
 	}
+	
 	
 	#menu {
 	display: inline-block;
@@ -467,8 +498,8 @@ a.mob, a.mobblack {
 	max-height: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	top: 65px;
-	left: 19px;
+	top: 64px;
+	left: -3px;
 	right: 16px;
 	bottom: 16px;
 	background-color: white;
@@ -511,7 +542,7 @@ a.mob, a.mobblack {
 /*BLOG POSTS*/
 /*containercontent above*/
 
-	.landpic, .landpicS, .portpic, .portpicS, .portpic2 {
+	.landpic, .landpicS, .portpic, .portpicS, .portpic2, .portpicH {
 		width: 100%; border: none; margin-bottom: 4px; 
 	}
 	
